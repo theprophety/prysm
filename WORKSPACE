@@ -265,13 +265,14 @@ go_repository(
 
 go_repository(
     name = "com_github_urfave_cli",
-    commit = "e6cf83ec39f6e1158ced1927d4ed14578fda8edb",  # v1.21.0
     importpath = "github.com/urfave/cli",
+    sum = "h1:gsqYFH8bb9ekPA12kRo0hfjngWQjkJPlN9R0N78BoUo=",
+    version = "v1.22.2",
 )
 
 go_repository(
     name = "com_github_go_yaml_yaml",
-    commit = "f221b8435cfb71e54062f6c6e99e9ade30b124d5",  # v2.2.4
+    commit = "1f64d6156d11335c3f22d9330b0ad14fc1e789ce",  # v2.2.7
     importpath = "github.com/go-yaml/yaml",
 )
 
@@ -320,8 +321,9 @@ go_repository(
 
 go_repository(
     name = "com_github_ipfs_go_log",
-    commit = "91b837264c0f35dd4e2be341d711316b91d3573d",  # v0.0.1
     importpath = "github.com/ipfs/go-log",
+    sum = "h1:5lIEEOQTk/vd1WuPFBRqz2mcp+5G1fMVcW+Ib/H5Hfo=",
+    version = "v1.0.1",
 )
 
 go_repository(
@@ -422,7 +424,7 @@ go_repository(
 
 go_repository(
     name = "com_github_mr_tron_base58",
-    commit = "d504ab2e22d97cb9f10b1d146a1e6a063f4a5f43",  # v1.1.2
+    commit = "b1dd383fd2c02d7933db93f157e339f1899b5163",  # v1.1.3
     importpath = "github.com/mr-tron/base58",
 )
 
@@ -909,7 +911,7 @@ go_repository(
 
 go_repository(
     name = "in_gopkg_yaml_v2",
-    commit = "f221b8435cfb71e54062f6c6e99e9ade30b124d5",  # v2.2.4
+    commit = "1f64d6156d11335c3f22d9330b0ad14fc1e789ce",  # v2.2.7
     importpath = "gopkg.in/yaml.v2",
 )
 
